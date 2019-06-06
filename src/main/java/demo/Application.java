@@ -11,10 +11,6 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class Application {
 
-  public static void hello() {
-    system.out.println("Hello");
-  }
-
   public static void main(String[] args) {
     SpringApplication.run(Application.class, args);
   }
